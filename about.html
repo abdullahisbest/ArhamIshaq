@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <meta name="description" content="Explore the world of medicine and the life of a 2nd-year MBBS student at SZMC RYK through Arham's engaging vlogs. Join his journey into the fascinating realms of medical school, literature, and personal growth.">
+    <title>Arham's Vlogging World</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>About Us - Amazing Vlog</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<style>
+/* ... (previous styles) */
+
+/* Style for about content section */
+.about-content {
+    background-color: #f7f7f7;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.about-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.about-content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #777;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Style for footer social icons */
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icon {
+    font-size: 24px;
+    color: #333;
+    margin-right: 15px;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.social-icon:hover {
+    color: #555;
+    transform: scale(1.1);
+}
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+header {
+    background-color: #2ecc71; /* Green color */
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Featured Vlog Styles */
+.featured-vlog {
+    padding: 2rem;
+    text-align: center;
+}
+
+.vlog-card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #f2f2f2; /* Light gray background */
+}
+
+.vlog-card img {
+    max-width: 100%;
+}
+
+/* Latest Vlogs Styles */
+.latest-vlogs {
+    background-color: #d4e6e0; /* Light green background */
+    padding: 2rem;
+}
+
+.vlog-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #2ecc71; /* Green color */
+    color: white;
+}
+
+/* Watch Button Styles */
+.watch-button {
+    display: inline-block;
+    background-color: #2ecc71; /* Green color */
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.watch-button:hover {
+    background-color: #2e2c72;
+}
+/* Adding animation styles */
+.vlog-card.expanded {
+    height: auto;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    transition: height 0.3s ease-in-out;
+}
+
+.vlog-card.expanded img {
+    max-width: 100%;
+}
+
+/* Adding animations for the watch button */
+.watch-button {
+    /* Other styles... */
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Animation for expanding vlogs */
+.vlog-card.expanded {
+    max-height: none;
+}
+
+/* Animation for expanding featured vlog */
+.featured-vlog.expanded {
+    max-height: none;
+}
+
+/* Animation for smooth transitions */
+.vlog-card, .featured-vlog {
+    max-height: 500px;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+/* Style for Load More button */
+.load-more-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.load-more-button:hover {
+    background-color: #555;
+}
+/* Video Page Styles */
+.video-section {
+    padding: 2rem;
+}
+
+.video-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+video {
+    width: 100%;
+}
+
+.description {
+    margin-top: 1rem;
+}
+/* ... (previous styles) */
+
+/* Animation for navigation links */
+nav ul li {
+    margin-right: 20px;
+    position: relative;
+    animation: bounce 0.5s ease infinite;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+}
+
+/* Additional Styles */
+/* ... (your existing styles) */
+/* Style for the hero section */
+.hero {
+    background-image: url('hero-image.jpg'); /* Replace with your hero image URL */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    opacity: 0.8;
+}
+/* Style for social icons */
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icon {
+    font-size: 24px;
+    color: #333;
+    margin-right: 15px;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #555;
+}
+/* ... (previous styles) */
+
+/* Animation for social icons on hover */
+.social-icon {
+    font-size: 24px;
+    color: #333;
+    margin-right: 15px;
+    transition: color 0.3s, transform 0.3s; /* Adding transform transition */
+}
+
+.social-icon:hover {
+    color: #555;
+    transform: scale(1.1); /* Scale the icon on hover */
+}
+
+</style>
+<body>
+    <header>
+        <h1>About Us</h1>
+        <nav>
+            <ul>
+                <li><a href="sds.html">Home</a></li>
+                <li><a href="vlogs.html">Vlogs</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="about-content">
+        <h1>About Arham: Exploring Life as a MBBS Student at SZMC RYK</h1><br>
+
+    <p>Welcome to Arham's world of vlogging! Arham, a dedicated 2nd-year MBBS student at SZMC RYK, is your guide to the thrilling journey of medical school in Pakistan. Through his lens, you'll get an inside look at the life of a medical student, a bookworm, and a passionate vlogger.</p>
+
+    <h1>Meet Arham</h1><br>
+
+    <p>Arham, hailing from the vibrant land of Pakistan, embarked on his academic journey with one clear goal - to become a skilled medical professional. He is currently pursuing his Bachelor of Medicine, Bachelor of Surgery (MBBS) degree at Sheikh Zayed Medical College, Rahim Yar Khan. His dedication to the field of medicine is unwavering, and he's eager to share the highs, lows, and everything in between with his viewers.</p>
+<br>
+    <h1>The MBBS Adventure</h1> <br>
+
+    <p>Arham's vlogs offer a unique peek into the life of a medical student in Pakistan. He'll take you through the rigorous academic challenges, the fascinating world of anatomy and physiology, and the emotional ups and downs of patient interactions. His in-depth knowledge and passion for medicine shine through every video, making complex medical topics more accessible to all.</p>
+<br>
+    <h1>A Bookworm's Paradise</h1><br>
+
+    <p>Arham isn't just a medical student; he's also a fervent book enthusiast. When he's not in the lecture hall or the hospital, you'll find him lost in the world of books. He's a dedicated "bookwitter," sharing his thoughts on the latest literary gems, offering recommendations, and even hosting book reviews on his channel. Join him in exploring the power of words and storytelling.</p>
+<br>
+    <h1>Writing the Book of Life</h1><br>
+
+    <p>Arham believes that life is the greatest book of all, and each experience is a chapter waiting to be written. His vlogs capture not only the academic side of his journey but also the moments of laughter, friendship, and personal growth that define his life as a student. With Arham, you'll see how every day is an opportunity to write a new page in your own book of life.</p>
+<br>
+    <h1>Join the Journey</h1><br>
+
+    <p>Are you curious about the life of a medical student in Pakistan? Do you share Arham's love for books and storytelling? Are you ready to embark on a journey through the world of medicine and beyond? If the answer is yes, then subscribe to Arham's channel and follow him on social media. Stay updated with his latest vlogs, book recommendations, and personal insights.</p>
+<br>
+    <p>Arham invites you to be a part of his incredible journey. Let's explore the world of medicine, literature, and life together. Welcome to Arham's vlogging world - where every moment is a lesson and every experience is a story waiting to be told.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Amazing Vlog. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
